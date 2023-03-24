@@ -12,9 +12,9 @@ const Hero = () => {
         mensilmente ed hai accesso a tutte le attività inerenti al mondo del
         benessere
       </p>
-      <div className="flex flex-col gap-2 items-center mb-24">
-        <Button title={"Ottieni la"} className="" />
-        <p className="text-xs">...e unisciti alla community</p>
+      <div className="flex flex-col gap-2 items-center mb-12">
+        <Button title={"Ottieni la tua settimana gratuita"} className="" />
+        <p className="text-xs">...ed entra a far parte di questa grande famiglia!</p>
       </div>
       <img
         src="../hero.jpg"
