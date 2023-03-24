@@ -1,0 +1,46 @@
+---
+export interface Props {
+    title1: string;
+    title2: string;
+    title3: string;
+}
+
+const { title1, title2, title3 } = Astro.props;
+---
+
+<div class="px-2 mt-8 overflow-hidden">
+  <ol class="relative border-l-2 border-gray-200 left-6">
+    <li class="flex flex-row items-start mb-10 ml-6">
+      <span
+        class="absolute flex items-center justify-center w-12 h-12 bg-green-100 rounded-md -left-6 text-2xl font-bold"
+      >
+        1
+      </span>
+      <p class="ml-2 mb-1 text-gray-900 pr-6">
+        {title1}
+      </p>
+    </li>
+      <li class="flex flex-row items-start mb-10 ml-6">
+        <span
+          class="absolute flex items-center justify-center w-12 h-12 bg-green-100 rounded-md -left-6 text-2xl font-bold"
+        >
+          2
+        </span>
+        <p class="ml-2 mb-1 text-gray-900 pr-6">
+          {title2}
+        </p>
+    </li>
+        <li class="flex flex-row items-start mb-10 ml-6">
+          <span
+            class="absolute flex items-center justify-center w-12 h-12 bg-green-100 rounded-md -left-6 text-2xl font-bold"
+          >
+            3
+          </span>
+          <p
+            class="ml-2 mb-1 text-gray-900 pr-6"
+          >
+            {title3}
+          </p>
+    </li>
+  </ol>
+</div>

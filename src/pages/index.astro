@@ -1,28 +1,34 @@
 ---
-import Mission from '../components/Mission';
-import CosaTroverai from '../components/CosaTroverai';
-import Hero from '../components/Hero';
-import ShortSpecs from '../components/ShortSpecs';
-import Layout from '../layouts/Layout.astro';
-import ComeFunziona from '../components/ComeFunziona';
+import Mission from "../components/Mission";
+import CosaTroverai from "../components/CosaTroverai";
+import Hero from "../components/Hero";
+import ShortSpecs from "../components/ShortSpecs";
+import Layout from "../layouts/Layout.astro";
+import ComeFunziona from "../components/ComeFunziona";
+import Timeline from "../components/Timeline.astro";
 ---
 
 <Layout title="Matcha Studio">
-	<main>
-		<Hero />
-		<ShortSpecs />
-		<Mission />
-		<CosaTroverai />
-		<ComeFunziona />
-	</main>
+  <main>
+    <Hero />
+    <ShortSpecs />
+    <Mission />
+    <CosaTroverai />
+    <ComeFunziona />
+    <Timeline
+      title1= "Ti registri per la tua settimana di prova gratuita, senza nessun costo nascosto."
+      title2= "Prenoti una delle classi LIVE o cerchi il corso più adatto a te nella libreria."
+      title3= "Ti godi la tua classe comodamente da dove vuoi tu!"
+    />
+  </main>
 </Layout>
 
 <style>
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+  }
 </style>
