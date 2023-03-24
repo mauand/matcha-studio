@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const ComeFunziona = () => {
   return (
@@ -7,6 +7,6 @@ const ComeFunziona = () => {
         <h2>È facile e veloce...</h2>
     </div>
   )
-}
+};
 
-export default ComeFunziona
+export default ComeFunziona;
