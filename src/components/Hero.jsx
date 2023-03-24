@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="container px-6 mb-14">
+    <div className="px-6 mb-14">
       <h1 className="font-black mb-5 mt-12">
         Yoga <br />e molto altro in unico studio virtuale
       </h1>

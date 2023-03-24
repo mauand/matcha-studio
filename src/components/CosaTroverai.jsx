@@ -4,7 +4,7 @@ import Item from './Item'
 
 const CosaTroverai = () => {
   return (
-    <div className='container px-6'>
+    <div className='px-6'>
         <h1 className='font-black'>
             Cosa troverai all'interno
         </h1>
