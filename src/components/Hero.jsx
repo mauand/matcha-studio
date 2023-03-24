@@ -17,7 +17,7 @@ const Hero = () => {
         <p className="text-xs">...ed entra a far parte di questa grande famiglia!</p>
       </div>
       <img
-        src="../hero.jpg"
+        src="/matcha-studio/hero.jpg"
         alt="Due persone che fanno yoga online"
         className="rounded-md"
       />
