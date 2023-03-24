@@ -4,7 +4,7 @@ import Button from "./Button";
 const Description = () => {
   return (
     <div className="px-0 rounded-md">
-      <div className="px-6">
+      <div className="px-2">
         <h3 className="uppercase">La nostra <br />mission</h3>
         <p>Questo progetto nasce con l’intento di dare la possibilità davvero a tutti di potersi prendere cura di sé da ogni luogo e in ogni momento disponibile. </p>
         <h2>Pratico e accessibile </h2>
