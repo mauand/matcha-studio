@@ -5,5 +5,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), react()]
+  integrations: [tailwind(), react()],
+  site: 'https://mauand.github.io',
+  base: '/matcha-studio',
 });
