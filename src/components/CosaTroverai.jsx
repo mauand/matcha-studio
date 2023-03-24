@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import Item from './Item'
 
 const CosaTroverai = () => {
   return (
@@ -10,9 +11,14 @@ const CosaTroverai = () => {
         <p>
             Tanti professionisti pronti a farti immergere nel loro mondo.
         </p>
-        <div>
-
-        </div>
+        <Item name="Yoga e Meditazione"/>
+        <Item name="Pranayama e respirazione"/>
+        <Item name="Corso introduttivo per principianti"/>
+        <Item name="Mini corsi per obiettivi specifici"/>
+        <Item name="Sound Healing"/>
+        <Item name="Aroma terapia"/>
+        <Item name="Alimentazione consapevole"/>
+        <Item name="e molto altro..."/>
         <p>Tutto questo in un unico abbonamento!</p>
         <Button title="Attiva ora la tua prova gratuita" />
     </div>
