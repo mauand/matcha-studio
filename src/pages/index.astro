@@ -9,6 +9,7 @@ import Timeline from "../components/Timeline.astro";
 import Testimonials from "../components/Testimonials.astro";
 import Needs from "../components/Needs";
 import Price from "../components/Price.astro";
+import Accordions from "../components/Accordions";
 ---
 
 <Layout title="Matcha Studio">
@@ -26,6 +27,7 @@ import Price from "../components/Price.astro";
     <Testimonials />
     <Needs />
     <Price />
+    <Accordions client:only/>
   </main>
 </Layout>
 
