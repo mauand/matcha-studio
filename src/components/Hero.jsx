@@ -13,7 +13,7 @@ const Hero = () => {
         benessere
       </p>
       <div className="flex flex-col gap-2 items-center mb-8">
-        <Button title={"Ottieni la tua settimana gratuita"} className="" />
+        <Button title= "Ottieni la tua settimana gratuita" className="bg-[#81A05D]" />
         <p className="text-xs">
           ...ed entra a far parte di questa grande famiglia!
         </p>
