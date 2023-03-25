@@ -25,19 +25,19 @@ const { title } = Astro.props;
 </html>
 <style is:global>
   :root {
-    --accent: 124, 58, 237;
+    --accent: 88, 129, 87;
     --accent-gradient: linear-gradient(
       45deg,
-      rgb(var(--accent)),
-      #da62c4 30%,
-      white 60%
+      rgba(88, 129, 87, 1) 0%,
+      rgba(42, 157, 143, 1) 35%,
+      rgba(242, 132, 130, 1) 100%
     );
   }
   html {
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
     background-color: rgba(110, 130, 87, 0.13);
-    color: #4F4642;
+    color: #4f4642;
   }
   code {
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
@@ -52,7 +52,6 @@ const { title } = Astro.props;
     line-height: 1;
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    color: #242424;
   }
   h1 {
     font-size: 3.2rem;
@@ -77,5 +76,23 @@ const { title } = Astro.props;
   h6 {
     font-size: 1.3rem;
     font-weight: 700;
+  }
+  .gradient {
+    background: -webkit-linear-gradient(
+      30deg,
+      #00753e 0%,
+      #2a9d8f 45%,
+      #ffa17a 80%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .bg-gradient {
+    background: linear-gradient(
+      45deg,
+      rgba(88, 129, 87, 1) 0%,
+      rgba(42, 157, 143, 1) 35%,
+      rgba(242, 132, 130, 1) 100%
+    );;
   }
 </style>
