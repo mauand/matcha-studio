@@ -3,24 +3,30 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="px-4 mb-14">
-      <h1 className="font-black mb-5 mt-12">
+    <div className="px-4 py-16">
+      <h1 className="font-black mb-4">
         Yoga <br />e molto altro in unico studio virtuale
       </h1>
-      <p className="mb-5">
+      <p className="mb-8">
         Matcha Studio funziona come un vero centro di Yoga e fitness, ti abboni
         mensilmente ed hai accesso a tutte le attività inerenti al mondo del
         benessere
       </p>
-      <div className="flex flex-col gap-2 items-center mb-12">
+      <div className="flex flex-col gap-2 items-center mb-8">
         <Button title={"Ottieni la tua settimana gratuita"} className="" />
-        <p className="text-xs">...ed entra a far parte di questa grande famiglia!</p>
+        <p className="text-xs">
+          ...ed entra a far parte di questa grande famiglia!
+        </p>
       </div>
       <img
         src="/matcha-studio/hero.jpg"
         alt="Due persone che fanno yoga online"
-        className="rounded-md"
+        className="rounded-md mb-8"
       />
+      <h4 className="text-bold">
+        Tante lezioni multidisciplinari LIVE <br />
+        già disponibili, e tante altre in arrivo!
+      </h4>
     </div>
   );
 };

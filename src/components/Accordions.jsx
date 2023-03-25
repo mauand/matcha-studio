@@ -6,10 +6,10 @@ import Button from "./Button";
 
 const Accordions = () => {
   return (
-    <div className="px-4">
-      <h1 className="mb-5">Domande frequenti</h1>
-      <p>Se qualocsa non ti è chiaro prova a cercare in questa sezione le tue risposte.</p>
-      <div id="accordionExample">
+    <div className="px-4 py-16">
+      <h1 className="mb-4">Domande frequenti</h1>
+      <p className="mb-8">Se qualocsa non ti è chiaro prova a cercare in questa sezione le tue risposte.</p>
+      <div id="accordionExample" className="mb-8">
         <div className="rounded-t-lg border border-neutral-200 bg-white">
           <h2 className="mb-0 font-normal" id="headingOne">
             <button
@@ -158,7 +158,7 @@ const Accordions = () => {
           </div>
         </div>
       </div>
-      <p className="text-center"> Non hai trovato la risposta che cercavi?</p>
+      <p className="text-center mb-4"> Non hai trovato la risposta che cercavi?</p>
       <Button title="Invia un messaggio Whatsapp" />
     </div>
   );
