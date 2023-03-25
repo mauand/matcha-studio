@@ -4,7 +4,7 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <div className="px-4 py-16">
-      <h1 className="font-black text-[#588157] mb-4">
+      <h1 className="font-black text-[#588157] mb-4 drop-shadow-md">
         Yoga <br />e molto altro in unico studio virtuale
       </h1>
       <p className="mb-8">
