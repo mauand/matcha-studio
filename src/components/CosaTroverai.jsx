@@ -4,12 +4,12 @@ import Item from "./Item";
 
 const CosaTroverai = () => {
   return (
-    <div className="px-4 py-16">
-      <h1 className="font-black mb-4 text-gray-800">Cosa troverai all'interno</h1>
+    <div className="px-2 sm:px-4 py-6">
+      <h1 className="font-black mb-4 text-gray-800">Cosa troverai dentro</h1>
       <p className="mb-8">
         Tanti professionisti pronti a farti immergere nel loro mondo.
       </p>
-      <Item name="Yoga e Meditazione" className="bg-[#4d908e] text-white" />
+      <Item name="Yoga e Meditazione" className="bg-item1 text-white" />
       <Item name="Pranayama e respirazione" className="bg-[#43aa8b] text-white" />
       <Item name="Corso introduttivo per principianti" className="bg-[#56af5c] text-white" />
       <Item name="Mini corsi per obiettivi specifici" className="bg-[#90be6d] text-white" />
