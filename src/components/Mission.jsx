@@ -2,7 +2,7 @@ import React from "react";
 
 const Description = () => {
   return (
-    <div className="px-2 xs:px-4 -mt-32 xs:-mt-48 md:-mt-80 lg:-mt-52 pb-16">
+    <div className="px-2 xs:px-4 -mt-32 xs:-mt-48 md:-mt-80 lg:-mt-40 pb-16">
       <div className="mb-2 h-80 md:h-[26rem] lg:h-[32rem] bg-video bg-cover rounded-xl">
         <div className="w-full h-full backdrop-brightness-[.9] rounded-xl flex justify-center items-center">
           <div className="bg-slate-100 rounded-full w-12 h-12 flex justify-center items-center">
@@ -31,10 +31,10 @@ const Description = () => {
                   className="h-10 w-10 md:w-12 md:h-12 lg:h-16 lg:w-16"
                 />
                 <div>
-                  <p className="font-bold text-[16px] sm:text-[18px] md:text-[20px] md:mb-2 lg:mb-0  lg:text-[26px]">
+                  <p className="font-bold text-[16px] sm:text-[18px] md:text-[20px] md:mb-1 lg:mb-0  lg:text-[26px]">
                     Tante live ogni settimana
                   </p>
-                  <p className="text-[14px] lg:text-[18px]">
+                  <p className="text-[14px] md:text-[16px] lg:text-[18px]">
                     Vivi la vicinanza con gli insegnanti e con la community
                     comodamente da casa tua.
                   </p>
@@ -49,10 +49,10 @@ const Description = () => {
                   className="h-10 w-10 md:w-12 md:h-12 lg:h-16 lg:w-16"
                 />
                 <div>
-                  <p className="font-bold text-[16px] sm:text-[18px] md:text-[20px] md:mb-2 lg:mb-0 lg:text-[26px]">
+                  <p className="font-bold text-[16px] sm:text-[18px] md:text-[20px] md:mb-1 lg:mb-0 lg:text-[26px]">
                     Tutto il catalogo registrato
                   </p>
-                  <p className="text-[14px]  lg:text-[18px]">
+                  <p className="text-[14px] md:text-[16px] lg:text-[18px]">
                     Tutte le lezioni rimangono disponibili per la visione. In
                     più avrai dei percorsi prestabiliti.
                   </p>
