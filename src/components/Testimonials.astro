@@ -4,34 +4,39 @@ import Button from "./Button";
 import Review from "./Review.astro";
 ---
 
-<div class="px-4 py-16">
+<div class="pl-2 xs:pl-4 py-16">
   <h2 class="mb-4">Cosa dicono i nostri studenti</h2>
   <div class="flex mb-8">
-    <Icon name="ri:star-smile-fill" class="w-10 text-orange-300" />
-    <Icon name="ri:star-smile-fill" class="w-10 text-orange-300" />
-    <Icon name="ri:star-smile-fill" class="w-10 text-orange-300" />
-    <Icon name="ri:star-smile-fill" class="w-10 text-orange-300" />
-    <Icon name="ri:star-smile-fill" class="w-10 text-orange-300" />
+    <Icon name="ri:star-fill" class="w-10 text-orange-300" />
+    <Icon name="ri:star-fill" class="w-10 text-orange-300" />
+    <Icon name="ri:star-fill" class="w-10 text-orange-300" />
+    <Icon name="ri:star-fill" class="w-10 text-orange-300" />
+    <Icon name="ri:star-fill" class="w-10 text-orange-300" />
   </div>
-  <Review
-    text="Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te."
-    author="Elisa"
+  <div class="flex flex-nowrap overflow-x-scroll gap-2 touch-pan-x">
+    <Review
+      text="Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te."
+      author="Elisa"
+    />
+    <Review
+      text="Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. sdkabfweuh efkhweaf kuewf ewf f ukse fkuwe fukh"
+      author="Francesca"
+    />
+    <Review
+      text="Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te."
+      author="Paola"
+    />
+    <Review
+      text="Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te."
+      author="Alberto"
+    />
+    <Review
+      text="Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. sdkabfweuh efkhweaf kuewf ewf f ukse fkuwe fukh"
+      author="Lisandro"
+    />
+  </div>
+  <Button
+    title="Attiva ora la tua prova gratuita"
+    className="bg-[#e07a5f] text-white"
   />
-  <Review
-    text="Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. sdkabfweuh efkhweaf kuewf ewf f ukse fkuwe fukh"
-    author="Francesca"
-  />
-  <Review
-    text="Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te."
-    author="Paola"
-  />
-  <Review
-    text="Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te."
-    author="Alberto"
-  />
-  <Review
-    text="Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. sdkabfweuh efkhweaf kuewf ewf f ukse fkuwe fukh"
-    author="Lisandro"
-  />
-  <Button title="Attiva ora la tua prova gratuita"/>
 </div>

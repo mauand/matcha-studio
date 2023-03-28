@@ -51,10 +51,11 @@ const Description = () => {
                 />
                 <div>
                   <p className="font-bold text-[16px] sm:text-[18px]">
-                  Tutto il catalogo registrato
+                    Tutto il catalogo registrato
                   </p>
                   <p className="text-[14px]">
-                  Tutte le lezioni rimangono disponibili per la visione. In più avrai dei percorsi prestabiliti.
+                    Tutte le lezioni rimangono disponibili per la visione. In
+                    più avrai dei percorsi prestabiliti.
                   </p>
                 </div>
               </div>

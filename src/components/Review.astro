@@ -7,7 +7,18 @@ export interface Props {
 const { text, author } = Astro.props;
 ---
 
-<div class="text-center bg-slate-200 rounded-md p-6 w-full mb-4">
-    <p class="mb-4">{text}</p>
+<div class="text-center bg-slate-200 rounded-md p-6 mb-4">
+    <p class="mb-4 test-width">{text}</p>
     <p class='text-sm font-bold'>{author}</p>
 </div>
+
+<style>
+    .test-width {
+        width: 60vw;
+    }
+    @media (min-width:600px) {
+        .test-width {
+            width: 16rem;
+        }
+    }
+</style>

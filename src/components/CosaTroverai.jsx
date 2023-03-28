@@ -5,7 +5,9 @@ import Item from "./Item";
 const CosaTroverai = () => {
   return (
     <div className="px-2 xs:px-4 py-6">
-      <h1 className="font-black mb-4 title-shadow">Cosa troverai nella scuola</h1>
+      <h1 className="font-black mb-4 title-shadow">
+        Cosa troverai nella scuola
+      </h1>
       <p className="mb-8">
         Tanti professionisti pronti a farti immergere nel loro mondo.
       </p>
@@ -31,7 +33,10 @@ const CosaTroverai = () => {
       <p className="mt-8 mb-4 text-center">
         Tutto questo in un unico abbonamento!
       </p>
-      <Button title="Attiva ora la tua prova gratuita" className="bg-primary text-white" />
+      <Button
+        title="Attiva ora la tua prova gratuita"
+        className="bg-primary text-white"
+      />
     </div>
   );
 };
