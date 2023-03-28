@@ -13,7 +13,7 @@ const Description = () => {
       </div>
       <div className="flex flex-col sm:flex-row gap-2 flex-wrap">
         <div className="h-72 bg-tree center bg-cover rounded-xl sm:flex-1">
-          <h4 className="text-slate-50 title-shadow backdrop-brightness-[.7] w-full h-full pt-4 pl-4 pr-24 sm:pr-12 rounded-xl">
+          <h4 className="text-slate-50 title-shadow backdrop-brightness-[.7] w-full h-full pt-4 pl-4 pr-12 rounded-xl">
             Dare a tutti la possibilità di prendersi cura di sé, da ogni luogo e
             in ogni momento
           </h4>
