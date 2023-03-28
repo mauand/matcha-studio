@@ -4,7 +4,7 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <div className="bg-hero p-0 bg-cover bg-center rounded-b-xl">
-      <div className="px-2 sm:px-4 pb-36 min-h-screen pt-12 rounded-b-xl bg-gradient">
+      <div className="px-2 xs:px-4 pb-36 min-h-screen pt-12 rounded-b-xl bg-gradient">
 
       <h1 className="font-black mb-4 title-shadow text-[#F8FA9A]">
         Yoga <br />e molto altro in unico studio virtuale

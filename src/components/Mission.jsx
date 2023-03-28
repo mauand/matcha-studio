@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Description = () => {
   return (
-    <div className="px-2 sm:px-4 neg-mar pb-16">
+    <div className="px-2 xs:px-4 neg-mar pb-16">
       <div className="mb-2 h-80 bg-video bg-cover rounded-xl">
         <div className="w-full h-full backdrop-brightness-[.9] rounded-xl flex justify-center items-center">
           <div className="bg-slate-100 rounded-full w-12 h-12 flex justify-center items-center">
@@ -18,12 +18,13 @@ const Description = () => {
             in ogni momento
           </h4>
         </div>
-        <div className="min-h-[18rem] bg-slate-400 rounded-xl sm:flex-1 p-2 flex flex-col justify-between">
-          <h3 className="title-shadow p-2">
-            Lezioni <span>LIVE</span>
+        <div className="min-h-[18rem] bg-yellowish rounded-xl sm:flex-1 p-2 flex flex-col justify-between">
+          <h3 className="title-shadow p-2 sm:mb-4 font-black">
+            Lezioni <span className="text-primary">LIVE</span>
           </h3>
+
           <div className="flex flex-col gap-2">
-            <div className="bg-slate-100 w-full rounded-xl p-2">
+            <div className="bg-slate-100 w-full rounded-xl p-2 sm:p-3">
               <div className="flex gap-3 items-center sm:h-[5.5rem]">
                 <img
                   src="/matcha-studio/live.png"
@@ -31,7 +32,7 @@ const Description = () => {
                   className="h-10 w-10"
                 />
                 <div>
-                  <p className="font-bold text-[16px]">
+                  <p className="font-bold text-[16px] sm:text-[18px]">
                     Tante live ogni settimana
                   </p>
                   <p className="text-[14px]">
@@ -41,7 +42,7 @@ const Description = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-slate-100 w-full rounded-xl p-2">
+            <div className="bg-slate-100 w-full rounded-xl p-2 sm:p-3">
               <div className="flex gap-3 items-center sm:h-[5.5rem]">
                 <img
                   src="/matcha-studio/rec.png"
@@ -49,7 +50,7 @@ const Description = () => {
                   className="h-10 w-10"
                 />
                 <div>
-                  <p className="font-bold text-[16px]">
+                  <p className="font-bold text-[16px] sm:text-[18px]">
                   Tutto il catalogo registrato
                   </p>
                   <p className="text-[14px]">

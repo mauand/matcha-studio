@@ -4,21 +4,34 @@ import Item from "./Item";
 
 const CosaTroverai = () => {
   return (
-    <div className="px-2 sm:px-4 py-6">
-      <h1 className="font-black mb-4 text-gray-800">Cosa troverai dentro</h1>
+    <div className="px-2 xs:px-4 py-6">
+      <h1 className="font-black mb-4 title-shadow">Cosa troverai nella scuola</h1>
       <p className="mb-8">
         Tanti professionisti pronti a farti immergere nel loro mondo.
       </p>
-      <Item name="Yoga e Meditazione" className="bg-item1 text-white" />
-      <Item name="Pranayama e respirazione" className="bg-[#43aa8b] text-white" />
-      <Item name="Corso introduttivo per principianti" className="bg-[#56af5c] text-white" />
-      <Item name="Mini corsi per obiettivi specifici" className="bg-[#90be6d] text-white" />
-      <Item name="Sound Healing" className="bg-[#f9c74f] text-white" />
-      <Item name="Aroma terapia" className="bg-[#f9844a] text-white" />
-      <Item name="Alimentazione consapevole" className="bg-[#ea6544] text-white" />
-      <Item name="e molto altro..." className="bg-[#d34b4e] text-white" />
-      <p className="mt-8 mb-4 text-center">Tutto questo in un unico abbonamento!</p>
-      <Button title="Attiva ora la tua prova gratuita" className="bg-[]" />
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+        <Item name="Yin & Yang Yoga" className="bg-item1 text-white" />
+        <Item
+          name="Pranayama e Yoga Emozionale"
+          className="bg-item2 text-white"
+        />
+        <Item name="Sound Healing" className="bg-item3 text-white" />
+        <Item
+          name="Aroma terapia e Oli Essenziali"
+          className="bg-item4 text-white"
+        />
+        <Item
+          name="Corso introduttivo per principianti"
+          className="bg-item5 text-white"
+        />
+        <div className="bg-gradient text-white title-shadow rounded-xl flex justify-center items-center xs:h-28 text-center">
+          <h5>e molto altro..</h5>
+        </div>
+      </div>
+      <p className="mt-8 mb-4 text-center">
+        Tutto questo in un unico abbonamento!
+      </p>
+      <Button title="Attiva ora la tua prova gratuita" className="bg-primary text-white" />
     </div>
   );
 };
