@@ -1,29 +1,51 @@
-import React from 'react'
+import React from "react";
 
 const Needs = () => {
   return (
-    <div className='px-4 py-16'>
-        <h1 className='mb-16'>Di cosa hai bisogno</h1>
-        <div className="flex flex-col lg:flex-row text-center gap-12">
-        <div>
-                <img src="/matcha-studio/1yogi.png" alt="yogi uno" className='w-4/5 mx-auto mb-4'/>
-                <h5 className='uppercase mb-8'>IL DESIDERIO DI SENTIRTI BENE</h5>
-            </div>
-            <div>
-                <img src="/matcha-studio/2yogi.png" alt="yogi uno" className='w-4/5 mx-auto mb-4'/>
-                <h5 className='uppercase mb-8'>UN PICCOLO SPAZIO TRANQUILLO</h5>
-            </div>
-            <div>
-                <img src="/matcha-studio/3yogi.png" alt="yogi uno" className='w-4/5 mx-auto mb-4'/>
-                <h5 className='uppercase mb-8'>UN MOMENTO PER  IL TUO BENESSERE</h5>
-            </div>
-            <div>
-                <img src="/matcha-studio/4yogi.png" alt="yogi uno" className='w-4/5 mx-auto mb-4'/>
-                <h5 className='uppercase mb-8'>UN DISPOSITIVO DAL QUALE CONETTERTI</h5>
-            </div>
+    <div className="my-8 mx-2 xs:mx-4 px-2 py-8 xs:px-4 bg-yellowish rounded-xl">
+      <div className="px-2">
+        <h2 className="mb-4">Di cosa hai bisogno</h2>
+        <p className="mb-12">
+          Ti registri per la tua settimana di prova gratuita, senza nessun costo
+          nascosto.
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 text-center gap-2 sm:gap-4">
+        <div className="bg-slate-100 rounded-xl p-8 h-60 flex flex-col justify-center">
+          <img
+            src="/matcha-studio/1yogi.png"
+            alt="yogi uno"
+            className="w-40 mx-auto mb-4"
+          />
+          <h6 className="uppercase">IL DESIDERIO DI SENTIRTI BENE</h6>
         </div>
+        <div className="bg-slate-100 rounded-xl p-4 h-60 flex flex-col justify-center">
+          <img
+            src="/matcha-studio/2yogi.png"
+            alt="yogi uno"
+            className="w-36 mx-auto mb-4"
+          />
+          <h6 className="uppercase">UN PICCOLO SPAZIO TRANQUILLO</h6>
+        </div>
+        <div className="bg-slate-100 rounded-xl p-4 h-60 flex flex-col justify-center">
+          <img
+            src="/matcha-studio/3yogi.png"
+            alt="yogi uno"
+            className="w-40 mx-auto mb-4"
+          />
+          <h6 className="uppercase">UN MOMENTO PER IL TUO BENESSERE</h6>
+        </div>
+        <div className="bg-slate-100 rounded-xl p-4 h-60 flex flex-col justify-center">
+          <img
+            src="/matcha-studio/4yogi.png"
+            alt="yogi uno"
+            className="w-32 mx-auto mb-4"
+          />
+          <h6 className="uppercase">UN DISPOSITIVO DAL QUALE CONETTERTI</h6>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Needs
+export default Needs;

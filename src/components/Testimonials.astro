@@ -4,17 +4,17 @@ import Button from "./Button";
 import Review from "./Review.astro";
 ---
 
-<div class="pl-2 xs:pl-4 py-16">
-  <h2 class="mb-4">Cosa dicono i nostri studenti</h2>
-  <div class="flex mb-8">
-    <Icon name="ri:star-fill" class="w-10 text-orange-300" />
-    <Icon name="ri:star-fill" class="w-10 text-orange-300" />
-    <Icon name="ri:star-fill" class="w-10 text-orange-300" />
-    <Icon name="ri:star-fill" class="w-10 text-orange-300" />
-    <Icon name="ri:star-fill" class="w-10 text-orange-300" />
+<div class="pl-2 xs:pl-4 py-8">
+  <h2 class="mb-4 mr-8 lg:text-center">Cosa dicono i nostri studenti</h2>
+  <div class="flex mb-8 lg:justify-center">
+    <Icon name="ri:star-fill" class="w-8 text-orange-300" />
+    <Icon name="ri:star-fill" class="w-8 text-orange-300" />
+    <Icon name="ri:star-fill" class="w-8 text-orange-300" />
+    <Icon name="ri:star-fill" class="w-8 text-orange-300" />
+    <Icon name="ri:star-fill" class="w-8 text-orange-300" />
   </div>
   <div
-    class="flex flex-nowrap overflow-x-scroll overscroll-y-auto gap-2 touch-pan-x no-scrollbar"
+    class="flex flex-nowrap overflow-x-scroll overscroll-y-auto gap-2 touch-pan-x no-scrollbar mb-6"
   >
     <Review
       text="Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te. Piccola descrizione piu  approfondita per fare capire che è una scuola di benessere a 360 gradi per te."
@@ -37,7 +37,7 @@ import Review from "./Review.astro";
       author="Lisandro"
     />
   </div>
-  <div class="mr-4">
+  <div class="mr-2 xs:mr-4 lg:text-center">
     <Button
       title="Attiva ora la tua prova gratuita"
       className="bg-[#e07a5f] text-white"

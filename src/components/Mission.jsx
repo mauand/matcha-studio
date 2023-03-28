@@ -4,7 +4,7 @@ import Button from "./Button";
 const Description = () => {
   return (
     <div className="px-2 xs:px-4 neg-mar pb-16">
-      <div className="mb-2 h-80 bg-video bg-cover rounded-xl">
+      <div className="mb-2 h-80 lg:h-[29rem] bg-video bg-cover rounded-xl">
         <div className="w-full h-full backdrop-brightness-[.9] rounded-xl flex justify-center items-center">
           <div className="bg-slate-100 rounded-full w-12 h-12 flex justify-center items-center">
             <div className="bg-orange-600 rounded-full w-3 h-3"></div>

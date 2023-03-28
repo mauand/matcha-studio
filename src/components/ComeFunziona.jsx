@@ -2,7 +2,7 @@ import React from "react";
 
 const ComeFunziona = () => {
   return (
-    <div className="px-2 xs:px-4 pt-16">
+    <div className="px-2 xs:px-4 py-8">
       <h5 className="mb-2">Come funziona</h5>
       <h2 className="mb-12">È facile e veloce...</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
