@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="bg-hero p-0 bg-cover bg-center rounded-b-xl min-w-[100vw]">
       <div className="px-2 xs:px-4 md:pl-12 min-h-screen pt-12 rounded-b-xl bg-gradient min-w-[100vw]">
         <div className="containerino">
-          <h1 className="font-black mb-4 w-48 title-shadow text-[#F8FA9A] md:text-[4.6rem] md:w-[38rem] md:mt-28">
+          <h1 className="font-black mb-4 w-48 title-shadow text-[#F8FA9A] md:text-[4.6rem] md:w-[38rem] md:mt-[5rem]">
             Yoga e molto altro in unico studio virtuale
           </h1>
           <p className="mb-8 text-slate-100 md:w-[38rem]">
