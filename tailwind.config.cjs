@@ -19,6 +19,7 @@ module.exports = {
       colors: {
         primary: "#E07A5F",
         yellowish: "#E8F2AD",
+		goldish: "#F5E5AC",
       },
     },
     screens: {
