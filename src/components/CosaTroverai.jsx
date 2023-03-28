@@ -16,9 +16,9 @@ const CosaTroverai = () => {
       <Item name="Sound Healing" className="bg-[#f9c74f] text-white" />
       <Item name="Aroma terapia" className="bg-[#f9844a] text-white" />
       <Item name="Alimentazione consapevole" className="bg-[#ea6544] text-white" />
-      <Item name="e molto altro..." className="bg-[#f94144] text-white" />
+      <Item name="e molto altro..." className="bg-[#d34b4e] text-white" />
       <p className="mt-8 mb-4 text-center">Tutto questo in un unico abbonamento!</p>
-      <Button title="Attiva ora la tua prova gratuita" className="bg-gradient" />
+      <Button title="Attiva ora la tua prova gratuita" className="bg-[]" />
     </div>
   );
 };
