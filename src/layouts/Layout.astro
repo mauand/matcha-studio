@@ -24,10 +24,19 @@ const { title } = Astro.props;
   </body>
 </html>
 <style is:global>
+  .containerino {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
   html {
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
     color: #0d0d0d;
+  }
+  @media (min-width: 600px) {
+    html {
+      font-size: 18px;
+    }
   }
   code {
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
@@ -67,27 +76,12 @@ const { title } = Astro.props;
     font-size: 1.1rem;
     font-weight: 700;
   }
-  .gradient {
-    background: -webkit-linear-gradient(
-      30deg,
-      #d0593b 10%,
-      #ffa17a 60%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
   .bg-gradient {
     background: linear-gradient(71.6deg, rgba(99, 163, 83, 0.9) -2.1%, rgba(89, 181, 126, 0.9) 56.64%, rgba(238, 198, 95, 0.9) 105.83%);
   }
-
   .title-shadow {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-
-  .neg-mar {
-    margin-top: -8rem;
-  }
-
   .title-card {
     font-size: 26px;
     line-height: 1;
