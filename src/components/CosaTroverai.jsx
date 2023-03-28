@@ -24,7 +24,7 @@ const CosaTroverai = () => {
           name="Corso introduttivo per principianti"
           className="bg-item5 text-white"
         />
-        <div className="bg-gradient text-white title-shadow rounded-xl flex justify-center items-center xs:h-28 text-center">
+        <div className="bg-gradient text-white title-shadow rounded-xl flex justify-center items-center h-28 text-center">
           <h5>e molto altro..</h5>
         </div>
       </div>
