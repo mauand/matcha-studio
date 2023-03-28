@@ -5,7 +5,7 @@ import Item from "./Item";
 const CosaTroverai = () => {
   return (
     <div className="px-2 xs:px-4 py-6">
-      <h2 className="font-black mb-4 title-shadow md:text-center">
+      <h2 className="font-black mb-4 title-shadow md:text-center md:w-[25rem] md:mx-auto">
         Cosa troverai nella scuola
       </h2>
       <p className="mb-8 md:text-center">
