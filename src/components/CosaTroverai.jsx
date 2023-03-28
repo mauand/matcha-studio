@@ -8,7 +8,7 @@ const CosaTroverai = () => {
       <h2 className="font-black mb-4 title-shadow md:text-center md:w-[25rem] md:mx-auto">
         Cosa troverai nella scuola
       </h2>
-      <p className="mb-8 md:text-center">
+      <p className="mb-8 md:text-center md:w-[18rem] md:mx-auto">
         Tanti professionisti pronti a farti immergere nel loro mondo.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">

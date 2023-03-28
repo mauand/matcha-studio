@@ -17,7 +17,7 @@ const Needs = () => {
             alt="yogi uno"
             className="w-40 mx-auto mb-4"
           />
-          <h6 className="uppercase">IL DESIDERIO DI SENTIRTI BENE</h6>
+          <h6 className="uppercase ">IL DESIDERIO DI SENTIRTI BENE</h6>
         </div>
         <div className="bg-slate-100 rounded-xl p-4 h-60 flex flex-col justify-center">
           <img
@@ -25,7 +25,7 @@ const Needs = () => {
             alt="yogi uno"
             className="w-36 mx-auto mb-4"
           />
-          <h6 className="uppercase">UN PICCOLO SPAZIO TRANQUILLO</h6>
+          <h6 className="uppercase ">UN PICCOLO SPAZIO TRANQUILLO</h6>
         </div>
         <div className="bg-slate-100 rounded-xl p-4 h-60 flex flex-col justify-center">
           <img
@@ -33,7 +33,7 @@ const Needs = () => {
             alt="yogi uno"
             className="w-40 mx-auto mb-4"
           />
-          <h6 className="uppercase">UN MOMENTO PER IL TUO BENESSERE</h6>
+          <h6 className="uppercase ">UN MOMENTO PER IL TUO BENESSERE</h6>
         </div>
         <div className="bg-slate-100 rounded-xl p-4 h-60 flex flex-col justify-center">
           <img
@@ -41,7 +41,7 @@ const Needs = () => {
             alt="yogi uno"
             className="w-32 mx-auto mb-4"
           />
-          <h6 className="uppercase">UN DISPOSITIVO DAL QUALE CONETTERTI</h6>
+          <h6 className="uppercase ">UN DISPOSITIVO DAL QUALE CONETTERTI</h6>
         </div>
       </div>
     </div>

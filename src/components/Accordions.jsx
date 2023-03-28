@@ -8,7 +8,7 @@ const Accordions = () => {
   return (
     <div className="px-4 py-16">
       <h1 className="mb-4">Domande frequenti</h1>
-      <p className="mb-8">Se qualocsa non ti è chiaro prova a cercare in questa sezione le tue risposte.</p>
+      <p className="mb-8">Se qualcosa non ti è chiaro prova a cercare in questa sezione le tue risposte.</p>
       <div id="accordionExample" className="mb-8">
         <div className="rounded-t-lg border border-neutral-200 bg-white">
           <h2 className="mb-0 font-normal" id="headingOne">

@@ -17,12 +17,12 @@ const Description = () => {
             in ogni momento
           </h4>
         </div>
-        <div className="min-h-[18rem] md:h-[22rem] lg:h-[26rem] bg-yellowish rounded-xl sm:flex-1 p-2 lg:p-4 flex flex-col justify-between">
+        <div className="min-h-[18rem] md:h-[22rem] lg:h-[26rem] bg-yellowish rounded-xl sm:flex-1 p-2 md:p-3 lg:p-4 flex flex-col justify-between">
           <h3 className="title-shadow p-2 md:p-4 sm:mb-4 font-black">
             Lezioni <span className="text-primary">LIVE</span>
           </h3>
 
-          <div className="flex flex-col gap-2 lg:gap-4">
+          <div className="flex flex-col gap-2 md:gap-3 lg:gap-4">
             <div className="bg-slate-100 w-full rounded-xl p-2 lg:p-6 sm:p-3">
               <div className="flex gap-3 lg:gap-6 items-center sm:h-[5.5rem]">
                 <img
