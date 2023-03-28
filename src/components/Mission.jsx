@@ -2,7 +2,7 @@ import React from "react";
 
 const Description = () => {
   return (
-    <div className="px-2 xs:px-4 -mt-32 xs:-mt-48 md:-mt-80 lg:-mt-40 pb-16">
+    <div className="px-2 xs:px-4 -mt-32 xs:-mt-48 md:-mt-80 lg:-mt-40 mb-12">
       <div className="mb-2 h-80 md:h-[26rem] lg:h-[32rem] bg-video bg-cover rounded-xl">
         <div className="w-full h-full backdrop-brightness-[.9] rounded-xl flex justify-center items-center">
           <div className="bg-slate-100 rounded-full w-12 h-12 flex justify-center items-center">

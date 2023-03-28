@@ -2,7 +2,7 @@ import React from "react";
 
 const Needs = () => {
   return (
-    <div className="my-8 mx-2 xs:mx-4 px-2 py-8 xs:px-4 bg-yellowish rounded-xl lg:flex lg:gap-8">
+    <div className=" mx-2 xs:mx-4 px-2 py-8 lg:my-20 my-12 xs:px-4 bg-yellowish rounded-xl lg:flex lg:gap-8">
       <div className="px-2 lg:order-2 lg:pt-8 lg:pr-12">
         <h2 className="mb-4">Di cosa hai bisogno</h2>
         <p className="mb-12">
