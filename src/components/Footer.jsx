@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary-100 text-center">
+    <footer className="bg-gradient text-center rounded-t-xl">
       {/* <div className="px-6 pt-6">
         <form action="">
           <div className="flex flex-col gap-6">
@@ -36,9 +36,9 @@ const Footer = () => {
         </form>
       </div> */}
 
-      <div className="bg-secondary-200 flex gap-1 justify-center p-4 text-center text-secondary-700">
+      <div className="flex gap-1 justify-center p-4 text-center text-slate-100">
         © 2023 Copyright:
-        <p className="text-secondary-800">Matcha Studio</p>
+        <p className="text-white">Matcha Studio</p>
       </div>
     </footer>
   );

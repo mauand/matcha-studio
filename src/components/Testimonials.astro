@@ -2,6 +2,7 @@
 import { Icon } from "astro-icon";
 import Button from "./Button";
 import Review from "./Review.astro";
+import { Img } from "astro-imagetools/components";
 ---
 
 <div class="pl-2 xs:pl-4 py-12 lg:py-20">
@@ -13,6 +14,7 @@ import Review from "./Review.astro";
     <Icon name="ri:star-fill" class="w-8 text-orange-300" />
     <Icon name="ri:star-fill" class="w-8 text-orange-300" />
   </div>
+  <Img src="https://picsum.photos/1024/768" alt="A random image" />
   <div
     class="flex flex-nowrap overflow-x-scroll overscroll-y-auto gap-2 touch-pan-x no-scrollbar mb-6"
   >
