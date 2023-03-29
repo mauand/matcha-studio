@@ -4,7 +4,7 @@ import React from "react";
 const Description = () => {
   return (
     <div className="px-2 xs:px-4 -mt-32 xs:-mt-48 md:-mt-80 lg:-mt-40 mb-12">
-      <div className="mb-2 h-80 md:h-[26rem] lg:h-[32rem] bg-[url('https://ik.imagekit.io/mauand/matcha-studio/video.jpg?updatedAt=1680096507398')] bg-cover rounded-xl">
+      <div className="mb-2 h-80 md:h-[26rem] lg:h-[32rem] bg-[url('https://ik.imagekit.io/mauand/tr:w-1000/matcha-studio/video.jpg')] bg-cover rounded-xl">
         <div className="w-full h-full backdrop-brightness-[.9] rounded-xl flex justify-center items-center">
           <div className="bg-grayish rounded-full w-12 h-12 flex justify-center items-center">
             <div className="bg-orange-600 rounded-full w-3 h-3"></div>
