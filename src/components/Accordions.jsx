@@ -25,11 +25,11 @@ const Accordions = ({
         Se qualcosa non ti è chiaro prova a cercare in questa sezione le tue
         risposte.
       </p>
-      <div id="accordionExample" className="mb-8">
-        <div className="rounded-t-lg border border-neutral-200 bg-white">
+      <div id="accordionExample" className="mb-8 flex flex-col gap-2 md:gap-4">
+        <div className="bg-grayish md:bg-white rounded-xl">
           <h2 className="mb-0 font-normal" id="headingOne">
             <button
-              className="group relative flex w-full items-center rounded-t-[15px] border-0 bg-white py-3 px-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-greenish [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
+              className="group relative flex w-full items-center rounded-xl bg-grayish md:bg-white py-4 px-4 gap-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none md:[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:bg-grayish"
               type="button"
               data-te-collapse-init
               data-te-target="#collapseOne"
@@ -37,7 +37,7 @@ const Accordions = ({
               aria-controls="collapseOne"
             >
               {domanda1}
-              <span className="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none ">
+              <span className="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -66,10 +66,10 @@ const Accordions = ({
             <p className="py-4 px-4 text-gray-700">{risposta1}</p>
           </div>
         </div>
-        <div className="border border-t-0 border-neutral-200 bg-white">
+        <div className="bg-grayish md:bg-white rounded-xl">
           <h2 className="mb-0 font-normal" id="headingTwo">
             <button
-              className="group relative flex w-full items-center rounded-none border-0 bg-white py-3 px-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-greenish [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
+              className="group relative flex w-full items-center rounded-xl bg-grayish md:bg-white py-4 px-4 gap-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none md:[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:bg-grayish "
               type="button"
               data-te-collapse-init
               data-te-collapse-collapsed
@@ -78,7 +78,7 @@ const Accordions = ({
               aria-controls="collapseTwo"
             >
               {domanda2}
-              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#308654] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#308654] motion-reduce:transition-none">
+              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -106,10 +106,10 @@ const Accordions = ({
             <p className="py-4 px-4 text-gray-700">{risposta2}</p>
           </div>
         </div>
-        <div className="rounded-b-lg border border-t-0 border-neutral-200 bg-white">
+        <div className="bg-grayish md:bg-white rounded-xl">
           <h2 className="accordion-header mb-0 font-normal" id="headingThree">
             <button
-              className="group relative flex w-full items-center border-0 bg-white py-3 px-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-greenish [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] [&[data-te-collapse-collapsed]]:rounded-b-[15px] [&[data-te-collapse-collapsed]]:transition-none"
+              className="group relative flex w-full items-center rounded-xl bg-grayish md:bg-white py-4 px-4 gap-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] md:[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:bg-grayish"
               type="button"
               data-te-collapse-init
               data-te-collapse-collapsed
@@ -118,7 +118,7 @@ const Accordions = ({
               aria-controls="collapseThree"
             >
               {domanda3}
-              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none">
+              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -146,10 +146,10 @@ const Accordions = ({
             <p className="py-4 px-4 text-gray-700">{risposta3}</p>
           </div>
         </div>
-        <div className="border border-t-0 border-neutral-200 bg-white">
+        <div className="bg-grayish md:bg-white rounded-xl">
           <h2 className="mb-0 font-normal" id="headingFour">
             <button
-              className="group relative flex w-full items-center rounded-none border-0 bg-white py-3 px-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-greenish [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
+              className="group relative flex w-full items-center rounded-xl bg-grayish md:bg-white py-4 px-4 gap-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none md:[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:bg-grayish"
               type="button"
               data-te-collapse-init
               data-te-collapse-collapsed
@@ -158,7 +158,7 @@ const Accordions = ({
               aria-controls="collapseFour"
             >
               {domanda4}
-              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#308654] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#308654] motion-reduce:transition-none">
+              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -186,10 +186,10 @@ const Accordions = ({
             <p className="py-4 px-4 text-gray-700">{risposta4}</p>
           </div>
         </div>
-        <div className="border border-t-0 border-neutral-200 bg-white">
+        <div className="bg-grayish md:bg-white rounded-xl">
           <h2 className="mb-0 font-normal" id="headingFive">
             <button
-              className="group relative flex w-full items-center rounded-none border-0 bg-white py-3 px-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-greenish [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
+              className="group relative flex w-full items-center rounded-xl bg-grayish md:bg-white py-4 px-4 gap-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none md:[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:bg-grayish"
               type="button"
               data-te-collapse-init
               data-te-collapse-collapsed
@@ -198,7 +198,7 @@ const Accordions = ({
               aria-controls="collapseFive"
             >
               {domanda5}
-              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#308654] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#308654] motion-reduce:transition-none">
+              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -226,10 +226,10 @@ const Accordions = ({
             <p className="py-4 px-4 text-gray-700">{risposta5}</p>
           </div>
         </div>
-        <div className="border border-t-0 border-neutral-200 bg-white">
+        <div className="bg-grayish md:bg-white rounded-xl">
           <h2 className="mb-0 font-normal" id="headingSix">
             <button
-              className="group relative flex w-full items-center rounded-none border-0 bg-white py-3 px-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-greenish [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
+              className="group relative flex w-full items-center rounded-xl bg-grayish md:bg-white py-4 px-4 gap-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none md:[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:bg-grayish"
               type="button"
               data-te-collapse-init
               data-te-collapse-collapsed
@@ -238,7 +238,7 @@ const Accordions = ({
               aria-controls="collapseSix"
             >
               {domanda6}
-              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#308654] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#308654] motion-reduce:transition-none">
+              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -266,10 +266,10 @@ const Accordions = ({
             <p className="py-4 px-4 text-gray-700">{risposta6}</p>
           </div>
         </div>
-        <div className="border border-t-0 border-neutral-200 bg-white">
+        <div className="bg-grayish md:bg-white rounded-xl">
           <h2 className="mb-0 font-normal" id="headingSeven">
             <button
-              className="group relative flex w-full items-center rounded-none border-0 bg-white py-3 px-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-greenish [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)]"
+              className="group relative flex w-full items-center rounded-xl bg-grayish md:bg-white py-4 px-4 gap-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none md:[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:bg-grayish"
               type="button"
               data-te-collapse-init
               data-te-collapse-collapsed
@@ -278,7 +278,7 @@ const Accordions = ({
               aria-controls="collapseSeven"
             >
               {domanda7}
-              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#308654] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#308654] motion-reduce:transition-none">
+              <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

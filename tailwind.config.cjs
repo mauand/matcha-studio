@@ -22,6 +22,7 @@ module.exports = {
         yellowish: "#E8F2AD",
         goldish: "#F5E5AC",
         greenish: "#70B06E",
+        grayish: "#F9F9F9",
       },
       screens: {
         xs: "350px",

@@ -5,7 +5,7 @@ const Description = () => {
     <div className="px-2 xs:px-4 -mt-32 xs:-mt-48 md:-mt-80 lg:-mt-40 mb-12">
       <div className="mb-2 h-80 md:h-[26rem] lg:h-[32rem] bg-video bg-cover rounded-xl">
         <div className="w-full h-full backdrop-brightness-[.9] rounded-xl flex justify-center items-center">
-          <div className="bg-slate-100 rounded-full w-12 h-12 flex justify-center items-center">
+          <div className="bg-grayish rounded-full w-12 h-12 flex justify-center items-center">
             <div className="bg-orange-600 rounded-full w-3 h-3"></div>
           </div>
         </div>
@@ -23,7 +23,7 @@ const Description = () => {
           </h3>
 
           <div className="flex flex-col gap-2 md:gap-3 lg:gap-4">
-            <div className="bg-slate-100 w-full rounded-xl p-2 lg:p-6 sm:p-3">
+            <div className="bg-grayish w-full rounded-xl p-2 lg:p-6 sm:p-3">
               <div className="flex gap-3 lg:gap-6 items-center sm:h-[5.5rem]">
                 <img
                   src="/matcha-studio/live.png"
@@ -41,7 +41,7 @@ const Description = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-slate-100 w-full rounded-xl p-2 lg:p-6 sm:p-3">
+            <div className="bg-grayish w-full rounded-xl p-2 lg:p-6 sm:p-3">
               <div className="flex gap-3 lg:gap-6 items-center sm:h-[5.5rem]">
                 <img
                   src="/matcha-studio/rec.png"
