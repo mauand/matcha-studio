@@ -4,7 +4,7 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <div
-      className={`bg-[url('https://ik.imagekit.io/mauand/matcha-studio/hero.jpg?updatedAt=1680096509081')] p-0 bg-cover bg-center rounded-b-xl min-w-[100vw]`}
+      className={`bg-[url('https://ik.imagekit.io/mauand/tr:w-1500/matcha-studio/hero.jpg')] p-0 bg-cover bg-center rounded-b-xl min-w-[100vw]`}
     >
       <div className="px-2 xs:px-4 md:pl-12 min-h-screen h-[750px] fk:min-h-0 fk:h-[1200px] pt-12 rounded-b-xl bg-gradient min-w-[100vw]">
         <div className="containerino">

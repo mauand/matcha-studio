@@ -15,12 +15,12 @@ const ComeFunziona = () => {
             costo nascosto.
           </p>
           <img
-            src="/matcha-studio/mobile-card-1.png"
+            src="https://ik.imagekit.io/mauand/tr:w-400/matcha-studio/mobile-card-1.png"
             alt="registrazione su telefono"
             className="absolute bottom-0 left-4 h-48 sm:h-52 md:hidden"
           />
           <img
-            src="/matcha-studio/pc-card-1.png"
+            src="https://ik.imagekit.io/mauand/tr:w-400/matcha-studio/pc-card-1.png"
             alt="registrazione su pc"
             className="absolute bottom-0 left-1/3 hidden md:block h-60 lg:left-4 lg:h-52"
           />
@@ -34,7 +34,7 @@ const ComeFunziona = () => {
             nella libreria.
           </p>
           <img
-            src="/matcha-studio/card-2.png"
+            src="https://ik.imagekit.io/mauand/tr:w-400/matcha-studio/card-2.png"
             alt="prenotazione lezione su telefono"
             className="absolute top-0 right-0 h-52 sm:h-60 rounded-tr-xl lg:h-48"
           />
@@ -47,7 +47,7 @@ const ComeFunziona = () => {
             Ti godi la tua classe comodamente da dove vuoi tu!
           </p>
           <img
-            src="/matcha-studio/card-3.png"
+            src="https://ik.imagekit.io/mauand/tr:w-400/matcha-studio/card-3.png"
             alt="registrazione su telefono"
             className="absolute bottom-0 right-0 h-52 sm:h-60 rounded-br-xl lg:h-48"
           />

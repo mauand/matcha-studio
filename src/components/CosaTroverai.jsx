@@ -12,19 +12,19 @@ const CosaTroverai = () => {
         Tanti professionisti pronti a farti immergere nel loro mondo.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-        <Item name="Yin & Yang Yoga" className="bg-[url('https://ik.imagekit.io/mauand/matcha-studio/item1.jpg?updatedAt=1680096505273')] text-white" />
+        <Item name="Yin & Yang Yoga" className="bg-[url('https://ik.imagekit.io/mauand/tr:w-500/matcha-studio/item1.jpg')] text-white" />
         <Item
           name="Pranayama e Yoga Emozionale"
-          className="bg-[url('https://ik.imagekit.io/mauand/matcha-studio/item2.jpg?updatedAt=1680096504128')] text-white"
+          className="bg-[url('https://ik.imagekit.io/mauand/tr:w-500/matcha-studio/item2.jpg')] text-white"
         />
-        <Item name="Sound Healing" className="bg-[url('https://ik.imagekit.io/mauand/matcha-studio/item3.jpg?updatedAt=1680096502824')] text-white" />
+        <Item name="Sound Healing" className="bg-[url('https://ik.imagekit.io/mauand/tr:w-500/matcha-studio/item3.jpg')] text-white" />
         <Item
           name="Aroma terapia e Oli Essenziali"
-          className="bg-[url('https://ik.imagekit.io/mauand/matcha-studio/item4.jpg?updatedAt=1680096500687')] text-white"
+          className="bg-[url('https://ik.imagekit.io/mauand/tr:w-500/matcha-studio/item4.jpg')] text-white"
         />
         <Item
           name="Corso introduttivo per principianti"
-          className="bg-[url('https://ik.imagekit.io/mauand/matcha-studio/item5.jpg?updatedAt=1680096505226')] text-white"
+          className="bg-[url('https://ik.imagekit.io/mauand/tr:w-500/matcha-studio/item5.jpg')] text-white"
         />
         <div className="bg-gradient text-white title-shadow rounded-xl flex justify-center items-center h-28 md:h-36 text-center">
           <h5>e molto altro..</h5>

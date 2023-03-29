@@ -4,7 +4,7 @@ import React from "react";
 const Description = () => {
   return (
     <div className="px-2 xs:px-4 -mt-32 xs:-mt-48 md:-mt-80 lg:-mt-40 mb-12">
-      <div className="mb-2 h-80 md:h-[26rem] lg:h-[32rem] bg-[url('https://ik.imagekit.io/mauand/tr:w-1000/matcha-studio/video.jpg')] bg-cover rounded-xl">
+      <div className="mb-2 h-80 md:h-[26rem] lg:h-[32rem] bg-[url('https://ik.imagekit.io/mauand/tr:w-1500/matcha-studio/video.jpg')] bg-cover rounded-xl">
         <div className="w-full h-full backdrop-brightness-[.9] rounded-xl flex justify-center items-center">
           <div className="bg-grayish rounded-full w-12 h-12 flex justify-center items-center">
             <div className="bg-orange-600 rounded-full w-3 h-3"></div>
@@ -12,7 +12,7 @@ const Description = () => {
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-2 flex-wrap">
-        <div className="min-h-[18rem] bg-tree center bg-cover rounded-xl sm:flex-1">
+        <div className="min-h-[18rem] bg-[url('https://ik.imagekit.io/mauand/tr:w-600/matcha-studio/tree.jpg')] center bg-cover rounded-xl sm:flex-1">
           <h4 className="text-slate-50 title-shadow backdrop-brightness-[.7] w-full min-h-[18rem] h-full pt-4 pl-4 md:p-6 lg:p-8 md:pr-16 lg:pr-36 pr-12 rounded-xl">
             Dare a tutti la possibilità di prendersi cura di sé, da ogni luogo e
             in ogni momento
@@ -28,7 +28,7 @@ const Description = () => {
               <div className="flex gap-3 lg:gap-6 items-center sm:h-[5.5rem]">
                 
                 <img
-                  src="/matcha-studio/live.png"
+                  src="https://ik.imagekit.io/mauand/tr:w-100/matcha-studio/live.png"
                   alt="live icon"
                   className="h-10 w-10 md:w-12 md:h-12 lg:h-16 lg:w-16"
                 />
@@ -46,7 +46,7 @@ const Description = () => {
             <div className="bg-grayish w-full rounded-xl p-2 lg:p-6 sm:p-3">
               <div className="flex gap-3 lg:gap-6 items-center sm:h-[5.5rem]">
                 <img
-                  src="/matcha-studio/rec.png"
+                  src="https://ik.imagekit.io/mauand/tr:w-100/matcha-studio/rec.png"
                   alt="rec icon"
                   className="h-10 w-10 md:w-12 md:h-12 lg:h-16 lg:w-16"
                 />

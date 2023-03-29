@@ -13,7 +13,7 @@ const Needs = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 text-center gap-2 sm:gap-4">
         <div className="bg-grayish rounded-xl p-8 h-60 flex flex-col justify-center">
           <img
-            src="/matcha-studio/1yogi.png"
+            src="https://ik.imagekit.io/mauand/tr:w-400/matcha-studio/1yogi.png"
             alt="yogi uno"
             className="w-40 mx-auto mb-4"
           />
@@ -21,7 +21,7 @@ const Needs = () => {
         </div>
         <div className="bg-grayish rounded-xl p-4 h-60 flex flex-col justify-center">
           <img
-            src="/matcha-studio/2yogi.png"
+            src="https://ik.imagekit.io/mauand/tr:w-400/matcha-studio/2yogi.png"
             alt="yogi uno"
             className="w-36 mx-auto mb-4"
           />
@@ -29,7 +29,7 @@ const Needs = () => {
         </div>
         <div className="bg-grayish rounded-xl p-4 h-60 flex flex-col justify-center">
           <img
-            src="/matcha-studio/3yogi.png"
+            src="https://ik.imagekit.io/mauand/tr:w-400/matcha-studio/3yogi.png"
             alt="yogi uno"
             className="w-40 mx-auto mb-4"
           />
@@ -37,7 +37,7 @@ const Needs = () => {
         </div>
         <div className="bg-grayish rounded-xl p-4 h-60 flex flex-col justify-center">
           <img
-            src="/matcha-studio/4yogi.png"
+            src="https://ik.imagekit.io/mauand/tr:w-400/matcha-studio/4yogi.png"
             alt="yogi uno"
             className="w-32 mx-auto mb-4"
           />
