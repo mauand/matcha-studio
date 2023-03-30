@@ -35,7 +35,7 @@ const Accordions = ({
           <div className="text-center hidden lg:block">
             <Button
               title="Invia un messaggio Whatsapp"
-              className="bg-greenish text-white hover:bg-green-700"
+              className="bg-greenish text-white hover:bg-[#6fc86c]"
               link="https://wa.me/393493149813?text=Ciao%20Angelica,%20ti%20contatto%20da%20Matcha%20Studio.%20Vorrei%20informazioni%20riguardo%20"
             />
           </div>

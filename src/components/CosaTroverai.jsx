@@ -36,7 +36,7 @@ const CosaTroverai = () => {
       <div className="md:text-center">
         <Button
           title="Attiva ora la tua prova gratuita"
-          className="bg-primary text-white"
+          className="bg-primary text-white hover:bg-[#e6704f]"
           link="https://www.momoyoga.com/matcha-studio/register"
         />
       </div>

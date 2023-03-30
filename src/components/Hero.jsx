@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="flex flex-col gap-2 items-center md:items-start mb-8">
               <Button
                 title="Ottieni la tua settimana gratuita"
-                className="bg-[#e07a5f] text-white"
+                className="bg-[#e07a5f] text-slate-100 hover:bg-[#e6704f] transition-colors"
                 link="https://www.momoyoga.com/matcha-studio/register"
               />
             <p className="text-xs text-slate-100">
