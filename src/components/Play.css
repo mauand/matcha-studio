@@ -103,4 +103,6 @@
   /* width: 90%; */
   /* height: auto; */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.75); 
+  height: auto !important;
+  aspect-ratio: 16/9;
 }  
