@@ -47,7 +47,7 @@ const ComeFunziona = () => {
             Ti godi la tua classe comodamente da dove vuoi tu!
           </p>
           <img
-            src="https://ik.imagekit.io/mauand/tr:w-400/matcha-studio/card-3.png"
+            src="https://ik.imagekit.io/mauand/tr:w-400/matcha-studio/card-3.png?updatedAt=1680204422224"
             alt="registrazione su telefono"
             className="absolute bottom-0 right-0 h-52 sm:h-60 rounded-br-xl lg:h-48"
           />
