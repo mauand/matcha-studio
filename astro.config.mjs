@@ -1,11 +1,10 @@
 import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
-import { astroImageTools } from "astro-imagetools";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), react(), astroImageTools],
+  integrations: [tailwind(), react()],
   site: 'https://mauand.github.io',
   base: '/matcha-studio'
 });
