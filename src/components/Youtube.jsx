@@ -12,7 +12,7 @@ const Youtube = () => {
     <>
       {showYoutube && (
         <div className="fixed top-0 left-0 h-full w-full bg-over">
-          <button className="video-overlay-close" onClick={handleYouTubeClick}>
+          <button aria="chiudi video presentazione" className="video-overlay-close" onClick={handleYouTubeClick}>
             x
           </button>
           <ReactPlayer
@@ -28,6 +28,7 @@ const Youtube = () => {
 
         <button
           id="play-video"
+          aria="apri video presentazione"
           className="video-play-button"
           onClick={handleYouTubeClick}
         >

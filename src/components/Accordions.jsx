@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import * as te from "tw-elements";
 import Button from "./Button";
+
+
+
 const Accordions = ({
   domanda1,
   risposta1,
