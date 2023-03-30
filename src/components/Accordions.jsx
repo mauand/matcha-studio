@@ -1,7 +1,6 @@
 import React from "react";
 import * as te from "tw-elements";
 import Button from "./Button";
-
 const Accordions = ({
   domanda1,
   risposta1,
@@ -17,6 +16,14 @@ const Accordions = ({
   risposta6,
   domanda7,
   risposta7,
+  domanda8,
+  risposta8,
+  domanda9,
+  risposta9,
+  domanda10,
+  risposta10,
+  domanda11,
+  risposta11,
 }) => {
   return (
     <div className="px-2 xs:px-4 py-12 lg:py-18">
@@ -322,6 +329,166 @@ const Accordions = ({
               data-te-parent="#accordionExample"
             >
               <p className="py-4 px-4 text-gray-700">{risposta7}</p>
+            </div>
+          </div>
+          <div className="bg-grayish md:bg-white rounded-xl">
+            <h2 className="mb-0 font-normal" id="headingEight">
+              <button
+                className="group relative flex w-full items-center rounded-xl bg-grayish md:bg-white py-4 px-4 gap-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none md:[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:bg-grayish"
+                type="button"
+                data-te-collapse-init
+                data-te-collapse-collapsed
+                data-te-target="#collapseEight"
+                aria-expanded="false"
+                aria-controls="collapseEight"
+              >
+                {domanda8}
+                <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="h-6 w-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    ></path>
+                  </svg>
+                </span>
+              </button>
+            </h2>
+            <div
+              id="collapseEight"
+              className="!visible hidden"
+              data-te-collapse-item
+              aria-labelledby="headingEight"
+              data-te-parent="#accordionExample"
+            >
+              <p className="py-4 px-4 text-gray-700">{risposta8}</p>
+            </div>
+          </div>
+          <div className="bg-grayish md:bg-white rounded-xl">
+            <h2 className="mb-0 font-normal" id="headingNine">
+              <button
+                className="group relative flex w-full items-center rounded-xl bg-grayish md:bg-white py-4 px-4 gap-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none md:[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:bg-grayish"
+                type="button"
+                data-te-collapse-init
+                data-te-collapse-collapsed
+                data-te-target="#collapseNine"
+                aria-expanded="false"
+                aria-controls="collapseNine"
+              >
+                {domanda9}
+                <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="h-6 w-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    ></path>
+                  </svg>
+                </span>
+              </button>
+            </h2>
+            <div
+              id="collapseNine"
+              className="!visible hidden"
+              data-te-collapse-item
+              aria-labelledby="headingNine"
+              data-te-parent="#accordionExample"
+            >
+              <p className="py-4 px-4 text-gray-700">{risposta9}</p>
+            </div>
+          </div>
+          <div className="bg-grayish md:bg-white rounded-xl">
+            <h2 className="mb-0 font-normal" id="headingTen">
+              <button
+                className="group relative flex w-full items-center rounded-xl bg-grayish md:bg-white py-4 px-4 gap-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none md:[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:bg-grayish"
+                type="button"
+                data-te-collapse-init
+                data-te-collapse-collapsed
+                data-te-target="#collapseTen"
+                aria-expanded="false"
+                aria-controls="collapseTen"
+              >
+                {domanda10}
+                <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="h-6 w-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    ></path>
+                  </svg>
+                </span>
+              </button>
+            </h2>
+            <div
+              id="collapseTen"
+              className="!visible hidden"
+              data-te-collapse-item
+              aria-labelledby="headingTen"
+              data-te-parent="#accordionExample"
+            >
+              <p className="py-4 px-4 text-gray-700">{risposta10}</p>
+            </div>
+          </div>
+          <div className="bg-grayish md:bg-white rounded-xl">
+            <h2 className="mb-0 font-normal" id="headingEleven">
+              <button
+                className="group relative flex w-full items-center rounded-xl bg-grayish md:bg-white py-4 px-4 gap-3 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none md:[&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:bg-grayish"
+                type="button"
+                data-te-collapse-init
+                data-te-collapse-collapsed
+                data-te-target="#collapseEleven"
+                aria-expanded="false"
+                aria-controls="collapseEleven"
+              >
+                {domanda11}
+                <span className="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 motion-reduce:transition-none">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="h-6 w-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    ></path>
+                  </svg>
+                </span>
+              </button>
+            </h2>
+            <div
+              id="collapseEleven"
+              className="!visible hidden"
+              data-te-collapse-item
+              aria-labelledby="headingEleven"
+              data-te-parent="#accordionExample"
+            >
+              <p className="py-4 px-4 text-gray-700">{risposta11}</p>
             </div>
           </div>
         </div>
