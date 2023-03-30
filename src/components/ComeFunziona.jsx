@@ -20,7 +20,7 @@ const ComeFunziona = () => {
             className="absolute bottom-0 left-4 h-48 sm:h-52 md:hidden"
           />
           <img
-            src="https://ik.imagekit.io/mauand/tr:w-400/matcha-studio/pc-card-1.png"
+            src="https://ik.imagekit.io/mauand/tr:w-800/matcha-studio/pc-card-1.png"
             alt="registrazione su pc"
             className="absolute bottom-0 left-1/3 hidden md:block h-60 lg:left-4 lg:h-52"
           />
