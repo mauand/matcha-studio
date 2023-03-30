@@ -6,17 +6,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        hero: "url('/matcha-studio/hero.jpg')",
-        video: "url('/matcha-studio/video.jpg')",
-        tree: "url('/matcha-studio/tree.jpg')",
-        item1: "url('/matcha-studio/item1.jpg')",
-        item2: "url('/matcha-studio/item2.jpg')",
-        item3: "url('/matcha-studio/item3.jpg')",
-        item4: "url('/matcha-studio/item4.jpg')",
-        item5: "url('/matcha-studio/item5.jpg')",
-        albero: "url('/matcha-studio/albero.jpg')",
-      },
       colors: {
         primary: "#E07A5F",
         yellowish: "#E8F2AD",

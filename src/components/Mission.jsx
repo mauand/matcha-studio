@@ -1,33 +1,19 @@
-import { React, useState } from "react";
+import { Children, React, useState } from "react";
 import "./Play.css";
-import ReactPlayer from "react-player";
+import Youtube from "./Youtube";
+
 
 const Description = () => {
-  const [showYoutube, setShowYoutube] = useState(false);
-
-  const handleYouTubeClick = () => {
-    setShowYoutube(!showYoutube);
-  };
 
   return (
-    <div className="px-2 xs:px-4 -mt-32 xs:-mt-48 md:-mt-80 lg:-mt-40 mb-12">
+    <section
+      id="video"
+      className="px-2 xs:px-4 -mt-28 xs:-mt-48 md:-mt-40 lg:-mt-40 mb-12"
+    >
       <div className="mb-2 h-80 md:h-[26rem] lg:h-[32rem] bg-[url('https://ik.imagekit.io/mauand/tr:w-1500/matcha-studio/video.jpg')] bg-cover rounded-xl">
-        <div className="w-full h-full backdrop-brightness-[.9] rounded-xl flex justify-center items-center">
-          <button
-            id="play-video"
-            className="video-play-button"
-            onClick={handleYouTubeClick}
-          >
-            <span></span>
-          </button>
-          <div id="video-overlay" className="video-overlay">
-            {showYoutube?(
-              <div>
-                <ReactPlayer url="https://youtu.be/OXHCt8Ym9gw" />
-              </div>
-            ):""}
-          </div>
-        </div>
+        
+          <Youtube />
+        
       </div>
       <div className="flex flex-col md:flex-row gap-2 flex-wrap">
         <div className="min-h-[18rem] bg-[url('https://ik.imagekit.io/mauand/tr:w-600/matcha-studio/tree.jpg')] center bg-cover rounded-xl sm:flex-1">
@@ -81,7 +67,7 @@ const Description = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
