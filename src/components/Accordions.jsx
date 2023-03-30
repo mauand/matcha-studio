@@ -30,7 +30,7 @@ const Accordions = ({
           <div className="text-center hidden lg:block">
             <Button
               title="Invia un messaggio Whatsapp"
-              className="bg-greenish text-white"
+              className="bg-greenish text-white hover:bg-green-700"
             />
           </div>
         </div>
@@ -322,7 +322,7 @@ const Accordions = ({
         <div className="text-center lg:hidden">
           <Button
             title="Invia un messaggio Whatsapp"
-            className="bg-greenish text-white"
+            className="bg-greenish text-white hover:bg-green-700"
           />
         </div>
       </div>

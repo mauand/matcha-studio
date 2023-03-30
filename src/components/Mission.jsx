@@ -1,13 +1,31 @@
-import React from "react";
-
+import { React, useState } from "react";
+import "./Play.css";
+import ReactPlayer from "react-player";
 
 const Description = () => {
+  const [showYoutube, setShowYoutube] = useState(false);
+
+  const handleYouTubeClick = () => {
+    setShowYoutube(!showYoutube);
+  };
+
   return (
     <div className="px-2 xs:px-4 -mt-32 xs:-mt-48 md:-mt-80 lg:-mt-40 mb-12">
       <div className="mb-2 h-80 md:h-[26rem] lg:h-[32rem] bg-[url('https://ik.imagekit.io/mauand/tr:w-1500/matcha-studio/video.jpg')] bg-cover rounded-xl">
         <div className="w-full h-full backdrop-brightness-[.9] rounded-xl flex justify-center items-center">
-          <div className="bg-grayish rounded-full w-12 h-12 flex justify-center items-center">
-            <div className="bg-orange-600 rounded-full w-3 h-3"></div>
+          <button
+            id="play-video"
+            className="video-play-button"
+            onClick={handleYouTubeClick}
+          >
+            <span></span>
+          </button>
+          <div id="video-overlay" className="video-overlay">
+            {showYoutube?(
+              <div>
+                <ReactPlayer url="https://youtu.be/OXHCt8Ym9gw" />
+              </div>
+            ):""}
           </div>
         </div>
       </div>
@@ -26,7 +44,6 @@ const Description = () => {
           <div className="flex flex-col gap-2 md:gap-3 lg:gap-4">
             <div className="bg-grayish w-full rounded-xl p-2 lg:p-6 sm:p-3">
               <div className="flex gap-3 lg:gap-6 items-center sm:h-[5.5rem]">
-                
                 <img
                   src="https://ik.imagekit.io/mauand/tr:w-100/matcha-studio/live.png"
                   alt="live icon"
