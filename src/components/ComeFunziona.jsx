@@ -4,7 +4,7 @@ const ComeFunziona = () => {
   return (
     <div className="px-2 xs:px-4 py-12 lg:py-20">
       <h5 className="mb-2">Come funziona</h5>
-      <h2 className="mb-12 md:w-[25rem]">È facile e veloce...</h2>
+      <h2 className="mb-12 md:w-[25rem] title-shadow">È facile e veloce...</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="bg-gradient h-96 p-4 md:p-6 relative rounded-xl col-span-1 md:col-span-2">
           <div className="bg-primary h-10 w-10 rounded-md flex justify-center items-center text-white font-bold text-xl mb-4">

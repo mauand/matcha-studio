@@ -22,7 +22,7 @@ const Accordions = ({
     <div className="px-2 xs:px-4 py-12 lg:py-18">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 md:bg-grayish md:rounded-xl md:px-4 md:py-8 lg:px-8 lg:py-16">
         <div className="lg:col-span-1">
-          <h1 className="mb-4 lg:mb-8">Domande frequenti</h1>
+          <h1 className="mb-4 lg:mb-8 title-shadow">Domande frequenti</h1>
           <p className="mb-4 lg:hidden">
             Se qualcosa non ti è chiaro prova a cercare in questa sezione le tue
             risposte.

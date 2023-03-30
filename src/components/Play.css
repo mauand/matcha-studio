@@ -28,6 +28,7 @@
   animation: pulse-border 1500ms ease-out infinite;
 }
 
+
 .video-play-button:after {
   content: "";
   position: absolute;
@@ -38,13 +39,13 @@
   display: block;
   width: 80px;
   height: 80px;
-  background: #dbdbdb;
+  background: #efefef;
   border-radius: 50%;
   transition: all 200ms;
 }
 
 .video-play-button:hover:after {
-  background-color: darken(#dbdbdb, 10%);
+  background-color: #e2e2e2;
 }
 
 .video-play-button img {
@@ -64,8 +65,13 @@
   border-left: 32px solid #E07A5F;
   border-top: 22px solid transparent;
   border-bottom: 22px solid transparent;
+  transition: all 200ms;
 }
 
+
+.video-play-button span:hover {
+  border-left: 32px solid #e67151;
+}
 @keyframes pulse-border {
   0% {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
