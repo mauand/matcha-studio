@@ -37,6 +37,7 @@ const CosaTroverai = () => {
         <Button
           title="Attiva ora la tua prova gratuita"
           className="bg-primary text-white"
+          link="https://www.momoyoga.com/matcha-studio/register"
         />
       </div>
     </div>

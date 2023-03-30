@@ -22,15 +22,21 @@ const Accordions = ({
     <div className="px-2 xs:px-4 py-12 lg:py-18">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 md:bg-grayish md:rounded-xl md:px-4 md:py-8 lg:px-8 lg:py-16">
         <div className="lg:col-span-1">
-          <h1 className="mb-4">Domande frequenti</h1>
-          <p className="mb-4 lg:mb-8">
+          <h1 className="mb-4 lg:mb-8">Domande frequenti</h1>
+          <p className="mb-4 lg:hidden">
             Se qualcosa non ti è chiaro prova a cercare in questa sezione le tue
             risposte.
+          </p>
+          <p className="hidden lg:block">Hai altri dubbi?</p>
+          <p className="mb-2 lg:mb-4 hidden lg:block">
+            Parla direttamente con Angelica su Whatsapp, ti sta aspettando e non
+            vede l’ora di conoscerti :)
           </p>
           <div className="text-center hidden lg:block">
             <Button
               title="Invia un messaggio Whatsapp"
               className="bg-greenish text-white hover:bg-green-700"
+              link="https://wa.me/393493149813?text=Ciao%20Angelica,%20ti%20contatto%20da%20Matcha%20Studio.%20Vorrei%20informazioni%20riguardo%20"
             />
           </div>
         </div>
@@ -320,9 +326,15 @@ const Accordions = ({
           </div>
         </div>
         <div className="text-center lg:hidden">
+        <p className="">Hai altri dubbi?</p>
+          <p className="mb-4 lg:mb-8">
+            Parla direttamente con Angelica su Whatsapp, ti sta aspettando e non
+            vede l’ora di conoscerti :)
+          </p>
           <Button
             title="Invia un messaggio Whatsapp"
             className="bg-greenish text-white hover:bg-green-700"
+            link="https://wa.me/393493149813?text=Ciao%20Angelica,%20ti%20contatto%20da%20Matcha%20Studio.%20Vorrei%20informazioni%20riguardo%20"
           />
         </div>
       </div>
