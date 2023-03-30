@@ -15,16 +15,24 @@ const Youtube = () => {
           <button className="video-overlay-close" onClick={handleYouTubeClick}>
             x
           </button>
-
+          <div className="hidden lg:block">
             <ReactPlayer
               className="video-popup"
-              url="https://youtu.be/OXHCt8Ym9gw"
-              playing
+              url="https://youtu.be/y3SOMVXcDt4"
               width="90%"
               height="90%"
               controls={false}
             />
-
+          </div>
+          <div className="lg:hidden">
+            <ReactPlayer
+              className="video-popup"
+              url="https://youtu.be/y3SOMVXcDt4"
+              width="90%"
+              height="50%"
+              controls={false}
+            />
+          </div>
         </div>
       )}
       <div className="w-full h-full backdrop-brightness-[.9] rounded-xl flex justify-center items-center">
