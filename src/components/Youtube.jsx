@@ -19,12 +19,13 @@ const Youtube = () => {
             className="video-popup"
             url="https://youtu.be/y3SOMVXcDt4"
             playing
-            width="90%"
+            width="95%"
+            height="95%"
             controls={false}
           />
         </div>
       )}
-      <div className="w-full h-full backdrop-brightness-[.9] rounded-xl flex justify-center items-center">
+
         <button
           id="play-video"
           className="video-play-button"
@@ -32,7 +33,7 @@ const Youtube = () => {
         >
           <span></span>
         </button>
-      </div>
+
       ;
     </>
   );
