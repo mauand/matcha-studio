@@ -8,7 +8,7 @@ const Description = () => {
   return (
     <section
       id="video"
-      className="px-2 xs:px-4 -mt-28 xs:-mt-48 md:-mt-40 lg:-mt-40 mb-12"
+      className="px-2 xs:px-4 -mt-28 xs:-mt-36 md:-mt-40 lg:-mt-40 mb-12"
     >
       <div className="mb-2 h-80 md:h-[26rem] lg:h-[32rem] bg-[url('https://ik.imagekit.io/mauand/tr:w-1500/matcha-studio/video.jpg')] bg-cover rounded-xl">
         

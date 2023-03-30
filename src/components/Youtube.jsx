@@ -18,6 +18,7 @@ const Youtube = () => {
           <ReactPlayer
             className="video-popup"
             url="https://youtu.be/y3SOMVXcDt4"
+            playing
             width="90%"
             controls={false}
           />
