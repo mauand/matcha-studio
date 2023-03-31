@@ -3,9 +3,11 @@ import React from "react";
 import ScrollContainer from "react-indiana-drag-scroll";
 
 const Teachers = () => {
-
   return (
-      <ScrollContainer>
+    <div className="overflow-x-scroll">
+      <ScrollContainer 
+      overscroll="true"
+      >
         <div className="flex flex-nowrap gap-4 unselectable rounded-xl">
           <Teacher
             name="Angelica Albertini"
@@ -26,6 +28,7 @@ const Teachers = () => {
           />
         </div>
       </ScrollContainer>
+    </div>
   );
 };
 

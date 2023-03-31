@@ -26,9 +26,11 @@ const Teacher = ({ name, desc, className }) => {
         className={`rounded-xl text-center ${className} bg-center bg-cover`}
       >
         <div 
-        className="w-96 max-w-[80vw] h-[30rem] py-8 px-6 rounded-xl backdrop-brightness-[.6] flex flex-col justify-end items-center">
+        className="w-96 max-w-[80vw] h-[30rem] py-8 px-6 rounded-xl flex flex-col justify-end items-center">
+          <div className="backdrop-brightness-[.6]">
           <h5 className="title-shadow">{name}</h5>
           <p>{desc}</p>
+          </div>
         </div>
       </div>
     </>
