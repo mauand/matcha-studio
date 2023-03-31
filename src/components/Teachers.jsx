@@ -1,17 +1,25 @@
-import React from "react";
+import React, { useRef } from "react";
 import Teacher from "./Teach";
+import { useDraggable } from "react-use-draggable-scroll";
+
 
 const Teachers = () => {
+  const ref = useRef(); // We will use React useRef hook to reference the wrapping div:
+  const { events } = useDraggable(ref);
   return (
     <div className="px-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+      <div
+        ref={ref}
+        {...events}
+        className="flex flex-nowrap gap-4 overflow-x-scroll no-scrollbar cursor-grab unselectable"
+      >
         <Teacher
           name="Angelica Albertini"
           desc="Insegnante di Yoga e Meditazione"
           className="bg-[url('https://ik.imagekit.io/mauand/tr:w-500/matcha-studio/item2.jpg')] text-white"
         />
         <Teacher
-          name="Angelica Albertini"
+          name="Francesca"
           desc="Insegnante di Yoga e Meditazione"
           className="bg-[url('https://ik.imagekit.io/mauand/tr:w-500/matcha-studio/item2.jpg')] text-white"
         />

@@ -26,7 +26,10 @@ const { title } = Astro.props;
       name="keywords"
       content="matcha studio, matcha studio yoga, matcha yoga, matcha yoga live, yoga, lezioni di yoga, lezioni yoga, corso yoga, lezione yoga, lezioni di yoga, yoga lezioni, studio yoga, yoga corsi, yoga online, yoga live, meditazione online, insegnante yoga online, meditazione online, corso yoga online, corso meditazione online, yoga per principianti"
     />
-    <meta name="trustpilot-one-time-domain-verification-id" content="2f6c7680-a8d5-4179-aca8-b366763e3cdc"/>
+    <meta
+      name="trustpilot-one-time-domain-verification-id"
+      content="2f6c7680-a8d5-4179-aca8-b366763e3cdc"
+    />
     <title>{title}</title>
   </head>
   <!-- Google tag (gtag.js) -->
@@ -144,5 +147,29 @@ const { title } = Astro.props;
   .bg-over {
     background: rgba(0, 0, 0, 0.8);
     z-index: 49;
+  }
+  .trans {
+    opacity: 0;
+  }
+  .trans-pop {
+    opacity: 1;
+    transition: all 5s ease-out;
+  }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .unselectable {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
   }
 </style>
