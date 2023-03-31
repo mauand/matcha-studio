@@ -5,7 +5,9 @@ import { useDraggable } from "react-use-draggable-scroll";
 
 const Teachers = () => {
   const ref = useRef(); // We will use React useRef hook to reference the wrapping div:
-  const { events } = useDraggable(ref);
+  const { events } = useDraggable(ref, {
+    decayRate: 0.98, // specify the decay rate
+  });
   return (
     <div className="px-4">
       <div
