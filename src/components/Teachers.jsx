@@ -1,19 +1,17 @@
 import React, { useRef } from "react";
 import Teacher from "./Teach";
-import { useDraggable } from "react-use-draggable-scroll";
-
+import useDraggableScroll from "use-draggable-scroll";
 
 const Teachers = () => {
-  const ref = useRef(); // We will use React useRef hook to reference the wrapping div:
-  const { events } = useDraggable(ref, {
-    decayRate: 0.98, // specify the decay rate
-  });
+  const ref = useRef(null);
+
+  const { onMouseDown } = useDraggableScroll(ref, { direction: 'horizontal' });
   return (
     <div className="px-4">
       <div
         ref={ref}
-        {...events}
-        className="flex flex-nowrap gap-4 overflow-x-scroll no-scrollbar cursor-grab unselectable"
+        onMouseDown={onMouseDown}
+        className="flex flex-nowrap gap-4 overflow-x-scroll no-scrollbar cursor-grab unselectable rounded-xl"
       >
         <Teacher
           name="Angelica Albertini"
