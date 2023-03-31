@@ -1,16 +1,14 @@
 import React, { useRef } from "react";
 import Teacher from "./Teach";
-import useDraggableScroll from "use-draggable-scroll";
+
 
 const Teachers = () => {
-  const ref = useRef(null);
 
-  const { onMouseDown } = useDraggableScroll(ref, { direction: 'horizontal' });
+
   return (
     <div className="px-4">
       <div
-        ref={ref}
-        onMouseDown={onMouseDown}
+
         className="flex flex-nowrap gap-4 overflow-x-scroll no-scrollbar cursor-grab unselectable rounded-xl"
       >
         <Teacher
