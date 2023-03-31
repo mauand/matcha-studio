@@ -83,7 +83,7 @@
   }
 }
 
-.video-overlay-close {
+/* .video-overlay-close {
   position: absolute;
   z-index: 1000;
   top: 2%;
@@ -99,16 +99,15 @@
 
 .video-overlay-close:hover {
   color: #eb6e4c;
-}
+} */
 
-.video-popup {
+/* .video-popup {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%); 
-  /* width: 90%; */
-  /* height: auto; */
+
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.75); 
-  height: auto !important;
-  aspect-ratio: 16/9;
-}  
+   height: auto !important;
+  aspect-ratio: 16/9; 
+}   */

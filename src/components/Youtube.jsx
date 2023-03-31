@@ -9,18 +9,18 @@ const Youtube = () => {
   };
 
   return (
-    <>
+    <div className="h-full w-full cursor-pointer" onClick={handleYouTubeClick}>
       {showYoutube && (
-        <div className="fixed top-0 left-0 h-full w-full bg-over">
-          <button aria="chiudi video presentazione" className="video-overlay-close" onClick={handleYouTubeClick}>
+        <div className="absolute top-0 left-0 h-full w-full bg-over rounded-xl">
+          {/* <button aria="chiudi video presentazione" className="video-overlay-close" onClick={handleYouTubeClick}>
             x
-          </button>
+          </button> */}
           <ReactPlayer
-            className="video-popup"
+            className="rounded-xl overflow-hidden"
             url="https://youtu.be/y3SOMVXcDt4"
             playing
-            width="95%"
-            height="95%"
+            width="100%"
+            height="100%"
             controls={false}
           />
         </div>
@@ -36,7 +36,7 @@ const Youtube = () => {
         </button>
 
       ;
-    </>
+    </div>
   );
 };
 
