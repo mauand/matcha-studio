@@ -12,7 +12,7 @@ const Hero = () => {
             Yoga e molto altro in unico studio virtuale
           </h1>
           <p className="mb-8 text-slate-100 md:w-[38rem]">
-            Matcha Studio funziona come un vero centro di Yoga e fitness, ti
+            Matcha Studio funziona come un vero centro olistico, ti
             abboni mensilmente ed hai accesso a tutte le attività inerenti al
             mondo del benessere
           </p>
