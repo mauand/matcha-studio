@@ -32,13 +32,13 @@ const Accordions = ({
     <div className="px-2 xs:px-4 py-12 lg:py-18">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 md:bg-grayish md:rounded-xl md:px-4 md:py-8 lg:px-8 lg:py-16">
         <div className="lg:col-span-1">
-          <h1 className="mb-4 lg:mb-8 title-shadow">Domande frequenti</h1>
-          <p className="mb-4 lg:hidden">
+          <h1 className="mb-4 lg:mb-8 title-shadow text-slate-900">Domande frequenti</h1>
+          <p className="mb-4 lg:hidden text-slate-800">
             Se qualcosa non ti è chiaro prova a cercare in questa sezione le tue
             risposte.
           </p>
-          <p className="hidden lg:block">Hai altri dubbi?</p>
-          <p className="mb-2 lg:mb-4 hidden lg:block">
+          <p className="hidden lg:block text-slate-800">Hai altri dubbi?</p>
+          <p className="mb-2 lg:mb-4 hidden lg:block text-slate-800">
             Parla direttamente con Angelica su Whatsapp, ti sta aspettando e non
             vede l’ora di conoscerti :)
           </p>

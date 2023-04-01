@@ -3,8 +3,8 @@ import React from "react";
 const ComeFunziona = () => {
   return (
     <div className="px-2 xs:px-4 py-12 lg:py-20">
-      <h5 className="mb-2">Come funziona</h5>
-      <h2 className="mb-12 md:w-[25rem] title-shadow">È facile e veloce...</h2>
+      <h5 className="mb-2 text-slate-800">Come funziona</h5>
+      <h2 className="mb-12 md:w-[25rem] title-shadow text-slate-900">È facile e veloce...</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="bg-gradient h-96 p-4 md:p-6 relative rounded-xl col-span-1 md:col-span-2">
           <div className="bg-primary h-10 w-10 rounded-md flex justify-center items-center text-white font-bold text-xl mb-4">
@@ -29,7 +29,7 @@ const ComeFunziona = () => {
           <div className="bg-primary h-10 w-10 rounded-md flex justify-center items-center text-white font-bold text-xl mb-4">
             2
           </div>
-          <p className="title-card font-bold">
+          <p className="title-card font-bold text-slate-800">
             Prenoti una delle classi LIVE o cerchi il corso più adatto a te
             nella libreria.
           </p>
@@ -43,7 +43,7 @@ const ComeFunziona = () => {
           <div className="bg-primary h-10 w-10 rounded-md flex justify-center items-center text-white font-bold text-xl mb-4">
             3
           </div>
-          <p className="title-card font-bold">
+          <p className="title-card font-bold text-slate-800">
             Ti godi la tua classe comodamente da dove vuoi tu!
           </p>
           <img

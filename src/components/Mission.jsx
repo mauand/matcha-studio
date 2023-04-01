@@ -22,7 +22,7 @@ const Description = () => {
           </h4>
         </div>
         <div className="min-h-[18rem] md:h-[22rem] lg:h-[26rem] bg-yellowish rounded-xl sm:flex-1 p-2 md:p-3 lg:p-4 flex flex-col justify-between">
-          <h3 className="title-shadow p-2 md:p-4 sm:mb-4 font-black">
+          <h3 className="title-shadow p-2 md:p-4 sm:mb-4 font-black text-slate-800">
             Lezioni <span className="text-primary">LIVE</span>
           </h3>
 
@@ -35,7 +35,7 @@ const Description = () => {
                   className="h-10 w-10 md:w-12 md:h-12 lg:h-16 lg:w-16"
                 />
                 <div>
-                  <p className="font-bold text-[16px] sm:text-[18px] md:mb-1 lg:mb-2  lg:text-[26px]">
+                  <p className="font-bold text-[16px] sm:text-[18px] md:mb-1 lg:mb-2  lg:text-[26px] text-slate-800">
                     Tante live ogni settimana
                   </p>
                   <p className="text-[14px] md:text-[16px] lg:text-[18px]">
@@ -53,7 +53,7 @@ const Description = () => {
                   className="h-10 w-10 md:w-12 md:h-12 lg:h-16 lg:w-16"
                 />
                 <div>
-                  <p className="font-bold text-[16px] sm:text-[18px] md:mb-1 lg:mb-2 lg:text-[26px]">
+                  <p className="font-bold text-[16px] sm:text-[18px] md:mb-1 lg:mb-2 lg:text-[26px] text-slate-800">
                     Tutto il catalogo registrato
                   </p>
                   <p className="text-[14px] md:text-[16px] lg:text-[18px]">

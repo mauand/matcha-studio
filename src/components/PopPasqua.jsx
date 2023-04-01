@@ -16,7 +16,7 @@ const PopPasqua = () => {
       <PopUp trigger={showPopUp} setTrigger={setShowPopUp}>
         <div
           onClick={() => setShowPopUp(false)}
-          className="fixed top-0 left-0 bg-white bg-opacity-70 z-[80] h-[100vh] w-[100vw] p-2 flex justify-center items-center"
+          className="fixed top-0 left-0 bg-white/70 z-[80] h-[100vh] w-[100vw] p-2 flex justify-center items-center"
         >
           <div className="h-[30rem] w-11/12 lg:w-[50rem] lg:h-[25rem] bg-[url('https://ik.imagekit.io/mauand/tr:w-1500/matcha-studio/video.jpg')] bg-cover bg-center rounded-xl relative shadow-2xl z-[90]">
             <button
