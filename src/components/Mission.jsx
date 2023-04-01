@@ -9,12 +9,14 @@ const Description = () => {
       className="px-2 xs:px-4 -mt-28 xs:-mt-36 md:-mt-40 lg:-mt-40 mb-12"
     >
       <div className="relative mb-2 h-80 md:h-[26rem] lg:h-[32rem] bg-[url('https://ik.imagekit.io/mauand/tr:w-1500/matcha-studio/video.jpg')] bg-cover rounded-xl">
+        <div className="bg-black/40 w-full h-full rounded-xl">
           <Youtube />
+        </div>
       </div>
 
       <div className="flex flex-col md:flex-row gap-2 flex-wrap">
         <div className="min-h-[18rem] bg-[url('https://ik.imagekit.io/mauand/tr:w-600/matcha-studio/tree.jpg')] center bg-cover rounded-xl sm:flex-1">
-          <h4 className="text-slate-50 title-shadow backdrop-brightness-[.7] w-full min-h-[18rem] h-full pt-4 pl-4 md:p-6 lg:p-8 md:pr-16 lg:pr-36 pr-12 rounded-xl">
+          <h4 className="text-slate-50 title-shadow bg-black/40 w-full min-h-[18rem] h-full pt-4 pl-4 md:p-6 lg:p-8 md:pr-16 lg:pr-36 pr-12 rounded-xl">
             Dare a tutti la possibilità di prendersi cura di sé, da ogni luogo e
             in ogni momento
           </h4>

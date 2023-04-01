@@ -40,7 +40,7 @@ const PopPasqua = () => {
               <Button
               title="Ottieni ora la promo"
               className="bg-gradients text-white"
-
+              link="https://www.momoyoga.com/matcha-studio/member/orderstartdate/119602"
               />
             </div>
           </div>
