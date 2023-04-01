@@ -23,6 +23,7 @@
     "astro-icon": "^0.8.0",
     "astro-robots-txt": "^0.4.1",
     "react": "^18.2.0",
+    "react-countdown": "^2.3.5",
     "react-dom": "^18.2.0",
     "react-indiana-drag-scroll": "^2.2.0",
     "react-player": "^2.12.0",

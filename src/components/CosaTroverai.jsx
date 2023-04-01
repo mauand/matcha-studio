@@ -4,7 +4,7 @@ import Item from "./Item";
 
 const CosaTroverai = () => {
   return (
-    <div className="px-2 xs:px-4 pt-12 mb-12 lg:pt-20 lg:mb-20">
+    <div className="px-2 xs:px-4 pt-12 mb-6 lg:pt-20 lg:mb-10">
       <h2 className="font-black mb-4 title-shadow md:text-center md:w-[25rem] md:mx-auto">
         Cosa troverai nello studio
       </h2>
