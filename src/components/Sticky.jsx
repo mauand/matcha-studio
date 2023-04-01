@@ -8,13 +8,13 @@ const Sticky = () => {
   return (
     <>
       <div className="sticky p-2 flex justify-center items-baseline pt-3 gap-2 top-0 left-0 w-[100vw] h-12 bg-gradients border-b-2 border-slate-200 z-[79]">
-        <p className="text-slate-200 text-sm">
+        <p className="text-slate-200 text-xs sm:text-sm">
           La promo di Pasqua scade a breve:
         </p>
         {/* <a href="https://www.momoyoga.com/matcha-studio/member/orderstartdate/119602"> */}
         <button
           onClick={() => setShowPopUp(true)}
-          className="uppercase text-slate-50 font-bold text-md hover:text-primary transition-colors"
+          className="uppercase text-slate-50 font-bold text-sm sm:text-md hover:text-primary transition-colors"
         >
           Iscriviti ora
         </button>
