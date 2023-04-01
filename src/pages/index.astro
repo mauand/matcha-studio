@@ -9,11 +9,13 @@ import Price from "../components/Price.astro";
 import Accordions from "../components/Accordions";
 import Footer from "../components/Footer";
 import PopPasqua from "../components/PopPasqua";
+import Sticky from "../components/Sticky";
 ---
 
 <Layout title="Matcha Studio - Lezioni Online di Yoga e Discipline Olistiche in Live">
   <main>
     <PopPasqua client:only />
+    <Sticky client:only />
     <Hero />
     <div class="containerino">
       <Mission client:visible />

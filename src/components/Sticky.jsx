@@ -1,18 +1,24 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import PopUp from "./PopUp";
 import Button from "./Button";
 
-const PopPasqua = () => {
+const Sticky = () => {
   const [showPopUp, setShowPopUp] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setShowPopUp(true);
-    }, 3000);
-  }, []);
 
   return (
     <>
+      <div className="sticky p-2 flex justify-center items-baseline pt-3 gap-2 top-0 left-0 w-[100vw] h-12 bg-gradients border-b-2 border-slate-200 z-[79]">
+        <p className="text-slate-200 text-sm">
+          La promo di Pasqua scade a breve:
+        </p>
+        {/* <a href="https://www.momoyoga.com/matcha-studio/member/orderstartdate/119602"> */}
+        <button
+          onClick={() => setShowPopUp(true)}
+          className="uppercase text-slate-50 font-bold text-md hover:text-primary transition-colors"
+        >
+          Iscriviti ora
+        </button>
+      </div>
       <PopUp trigger={showPopUp} setTrigger={setShowPopUp}>
         <div
           onClick={() => setShowPopUp(false)}
@@ -54,4 +60,4 @@ const PopPasqua = () => {
   );
 };
 
-export default PopPasqua;
+export default Sticky;
