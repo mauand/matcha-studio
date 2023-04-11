@@ -11,7 +11,7 @@ export default defineConfig({
   site: 'https://matchastudioyoga.com',
   integrations: [tailwind(), react(), partytown({
     config: {
-      forward: ["dataLayer.push"]
+      forward: ["dataLayer.push", "fbq"]
     }
   }), robotsTxt(), sitemap()]
 });
