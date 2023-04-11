@@ -84,6 +84,21 @@ const { title } = Astro.props;
 
     gtag("config", "G-B83E8Y4V4Z");
   </script>
+  <script type="text/partytown">
+    window.fbq = function(){
+  resolveUrl={function(url) {
+    if (url.hostname === "connect.facebook.net") {
+      var proxyUrl = new URL('https://my-reverse-proxy.com/');
+      proxyUrl.searchParams.append('url', url.href);
+      return proxyUrl;
+    }
+    return url;
+  },
+  forward: [
+    "fbq"
+  ]
+};
+  </script>
   <body>
     <slot />
   </body>
